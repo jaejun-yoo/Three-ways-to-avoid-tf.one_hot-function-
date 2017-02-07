@@ -1,4 +1,4 @@
-** To avoid the internal error due to one_hot function **
+**To avoid the internal error due to one_hot function**
 
 error message : InternalError: Blas SGEMM launch failed :
 1. restart the Kernel
