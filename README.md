@@ -1,9 +1,11 @@
 #To avoid the internal error due to one_hot function
 
 **error message :**
+
 InternalError: Blas SGEMM launch failed : ~
 
 **suggested solution**
+
 1. restart the Kernel
 2. if 1 does not work, try below
 
