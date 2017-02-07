@@ -24,6 +24,6 @@ I encountered this error while I was trying to port the jupyter notebook script 
 
 **ramaining issue**
 
-After amending the code to avoid using one_hot function, the final results from the [Blobs-DANN-py2-original.ipynb](https://github.com/jaejun-yoo/Three-ways-to-avoid-tf.one_hot-function-/blob/master/Blobs-DANN-py2-original.ipynb) have changed to suspicious way..(please compare the results of the ipynb of 1st, 2nd and 3rd methods from the original
+After amending the code to avoid using one_hot function, the final results from the [Blobs-DANN-py2-original.ipynb](https://github.com/jaejun-yoo/Three-ways-to-avoid-tf.one_hot-function-/blob/master/Blobs-DANN-py2-original.ipynb) have changed to suspicious way..(please compare the results of the ipynb of [1st](https://github.com/jaejun-yoo/Three-ways-to-avoid-tf.one_hot-function-/blob/master/Blobs-DANN-py35-using-1st-method.ipynb), [2nd](https://github.com/jaejun-yoo/Three-ways-to-avoid-tf.one_hot-function-/blob/master/Blobs-DANN-py35-using-2nd-method.ipynb) and [3rd](https://github.com/jaejun-yoo/Three-ways-to-avoid-tf.one_hot-function-/blob/master/Blobs-DANN-py35-using-3rd-method.ipynb) methods from the original
 
 Maybe there are other issues or maybe there is remaining problem with those substitution of one_hot function.  (still finding the way)
