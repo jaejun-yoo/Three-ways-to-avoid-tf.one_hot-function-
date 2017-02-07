@@ -18,6 +18,7 @@ Window10 (64bit), tensorflow-gpu 0.12.1 (2016.12.25 updated version), Python 3.5
   1) with tf.device("/cpu:0"): # get around by using cpu at this part only
       Y = tf.one_hot(ys, 2)
       D = tf.one_hot(D_ind, 2)
+      
   2) Define one_hot function by using other tf inbuilt functions
       #Instead of Y = tf.one_hot(ys, 2)
       num_labels = 2
@@ -27,6 +28,7 @@ Window10 (64bit), tensorflow-gpu 0.12.1 (2016.12.25 updated version), Python 3.5
       concated = tf.concat(1, [indices, sparse_labels])
       outshape = tf.concat(0, [tf.reshape(derived_size, [1]), tf.reshape(num_labels, [1])])
       Y = tf.sparse_to_dense(concated, outshape, 1.0, 0.0)
+      
   3) Define a function with numpy and use appropriate size of placeholder as a output
       def oh_encoding(label, num_classes):        
       result = np.zeros((len(label), num_classes),dtype=np.int32)
