@@ -15,11 +15,13 @@ Window10 (64bit), tensorflow-gpu 0.12.1 (2016.12.25 updated version), Python 3.5
 1. restart the Kernel
 2. if 1 does not work, try below ([ipynb link here](https://github.com/jaejun-yoo/Three-ways-to-avoid-tf.one_hot-function-/blob/master/Three%20ways%20to%20avoid%20tf.one_hot()%20function%20.ipynb))
 
-  1) with tf.device("/cpu:0"): # get around by using cpu at this part only
+  1) Get around by using cpu at this part only
   
-      Y = tf.one_hot(ys, 2)
+      with tf.device("/cpu:0"): # 
+  
+        Y = tf.one_hot(ys, 2)
       
-      D = tf.one_hot(D_ind, 2)
+        D = tf.one_hot(D_ind, 2)
       
   2) Define one_hot function by using other tf inbuilt functions
   
