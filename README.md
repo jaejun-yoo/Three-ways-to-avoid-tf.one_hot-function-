@@ -17,7 +17,7 @@ Window10 (64bit), tensorflow-gpu 0.12.1 (2016.12.25 updated version), Python 3.5
 
   1) Get around by using cpu at this part only
   
-      with tf.device("/cpu:0"): # 
+      with tf.device("/cpu:0"):
   
         Y = tf.one_hot(ys, 2)
       
