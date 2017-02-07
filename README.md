@@ -14,6 +14,7 @@ I encountered this error while I was trying to port the jupyter notebook script 
 **referred sites:**
 
 (DANN notebook)
+
 1. https://github.com/pumpikano/tf-dann/blob/master/Blobs-DANN.ipynb
 
 (related to error message)
