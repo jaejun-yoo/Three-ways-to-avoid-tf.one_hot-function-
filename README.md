@@ -4,6 +4,9 @@
 
 InternalError: Blas SGEMM launch failed : ~
 
+**my environment**
+window10, tensorflow-gpu 0.12.1 (2016.12.25 updated version)
+
 **suggested solution**
 
 1. restart the Kernel
