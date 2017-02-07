@@ -6,7 +6,7 @@ InternalError: Blas SGEMM launch failed : ~
 
 **my environment**
 
-window10 (64bit), tensorflow-gpu 0.12.1 (2016.12.25 updated version)
+window10 (64bit), tensorflow-gpu 0.12.1 (2016.12.25 updated version), Python 3.5
 
 **suggested solution**
 
