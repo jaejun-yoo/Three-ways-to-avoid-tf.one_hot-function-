@@ -6,6 +6,8 @@ InternalError: Blas SGEMM launch failed : ~
 
 I encountered this error while I was trying to port the jupyter notebook script from Python2 to Python3.
 
+[DANN notebook- original notebook I was trying to port from Python2 to Python3](https://github.com/pumpikano/tf-dann/blob/master/Blobs-DANN.ipynb)
+
 **my environment**
 
 Window10 (64bit), tensorflow-gpu 0.12.1 (2016.12.25 updated version), Python 3.5
